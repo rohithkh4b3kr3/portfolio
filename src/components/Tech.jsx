@@ -45,6 +45,7 @@ export default function TechStack() {
 
   return (
     <>
+    {/* <Navbar /> */}
     <section
       id="techstack"
       className="max-w-6xl mx-auto px-6 py-16 font-serif bg-neutral-50 text-black relative overflow-hidden"
