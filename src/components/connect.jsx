@@ -23,6 +23,7 @@ export default function Contact() {
   };
 
   return (
+    
     <section
       id="contact"
       className="max-w-5xl mx-auto px-6 py-16 font-serif bg-neutral-50 text-black relative"

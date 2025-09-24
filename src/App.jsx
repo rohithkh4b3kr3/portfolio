@@ -1,15 +1,17 @@
 import React from 'react'
-import NewspaperNavbar from './components/navbar'
+// import Navbar from './components/Navbar.jsx'
 import About from './components/About'
 import TechStack from './components/Tech'
 import Hobbies from './components/hobbies'
 // import { Connect } from 'vite'
 import Contact from './components/connect'
+import Navbar from './components/navbar'
 
 function App() {
   return (
   <>
-      <NewspaperNavbar/>
+      {/* <NewspaperNavbar/> */}
+      <Navbar/>
       <About/>
       <TechStack/>
       <Hobbies/>

@@ -101,7 +101,7 @@
 import React, { useState, useEffect } from "react";
 import '../components/app.css';
 
-export default function NewspaperNavbar() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("about");
   const [displayedText, setDisplayedText] = useState("");
